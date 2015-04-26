@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+		<bean id="userDao" class="com.social.network.dao.UserDao" ></bean>
+		<bean id="postsDao" class="com.social.network.dao.PostsDao" ></bean>
+		<bean id="friendsDao" class="com.social.network.dao.FriendsDao" ></bean>
+		<bean id="inboxDao" class="com.social.network.dao.InboxDao" ></bean>
+		<bean id="notificationDao" class="com.social.network.dao.NotificationDao" ></bean>
+</beans>
